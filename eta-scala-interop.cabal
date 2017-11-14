@@ -18,3 +18,8 @@ library
   build-depends:       base >=4.8 && <4.9
   hs-source-dirs:      src
   default-language:    Haskell2010
+
+source-repository this
+  type: git
+  location: https://github.com/typelead/eta-scala-interop
+  tag: 0.1.0.0 
