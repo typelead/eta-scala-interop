@@ -1,5 +1,5 @@
 name:                eta-scala-interop
-version:             0.1.0.0
+version:             0.1.3.0
 synopsis:            Utilities for interoperating with Scala.
 description:         Utilities for interoperating with Scala.
 license:             BSD3
@@ -15,11 +15,11 @@ cabal-version:       >=1.10
 
 library
   exposed-modules:     Interop.Scala
-  build-depends:       base >=4.8 && <4.9
+  build-depends:       base >=4.8 && <4.11
   hs-source-dirs:      src
   default-language:    Haskell2010
 
 source-repository this
   type: git
   location: https://github.com/typelead/eta-scala-interop
-  tag: 0.1.0.0 
+  tag: 0.1.3.0 
